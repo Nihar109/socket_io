@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    reprturn result
+    return result
 
 if __name__ == '__main__':
     from uvicorn import run
